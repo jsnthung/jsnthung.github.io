@@ -22,7 +22,7 @@ export const experienceData = [
   {
     id: 3,
     role: "Data Engineering Practical Couse",
-    year: "Apr - Jul 2024",
+    year: "Oct 2024 - Jan 2025",
     institution: "Professorship of Data Engineering TUM Heilbronn",
     details:
       "Developed an interactive tool to visualize RDF Entailment to aid understanding semantic web reasoning. Implemented stepwise visualization and highlighting, allowing users to observe the evolution of the graph as inference rules are applied",
