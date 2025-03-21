@@ -1,8 +1,8 @@
 import cLogo from "../../assets/c.svg";
-import cssLogo from "../../assets/css.svg";
+// import cssLogo from "../../assets/css.svg";
 import expressLogo from "../../assets/express.svg";
 import flutterLogo from "../../assets/flutter.svg";
-import htmlLogo from "../../assets/html.svg";
+// import htmlLogo from "../../assets/html.svg";
 import javaLogo from "../../assets/java.svg";
 import javascriptLogo from "../../assets/javascript.svg";
 import mongodbLogo from "../../assets/mongodb.svg";
@@ -46,14 +46,14 @@ export const experienceData = [
 ];
 
 export const techStacks = [
-  {
-    name: "HTML",
-    logo: htmlLogo,
-  },
-  {
-    name: "CSS",
-    logo: cssLogo,
-  },
+  // {
+  //   name: "HTML",
+  //   logo: htmlLogo,
+  // },
+  // {
+  //   name: "CSS",
+  //   logo: cssLogo,
+  // },
   {
     name: "JavaScript",
     logo: javascriptLogo,
@@ -95,9 +95,5 @@ export const techStacks = [
   {
     name: "Flutter",
     logo: flutterLogo,
-  },
-  {
-    name: "React Native",
-    logo: reactLogo,
   },
 ];
