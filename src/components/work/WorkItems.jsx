@@ -1,0 +1,22 @@
+import React from "react";
+
+const WorkItems = ({ item }) => {
+  return (
+    <div className="work__card" key={item.id}>
+      <img src={item.image} alt="" className="work__img" />
+      <h3 className="work__title">{item.title}</h3>
+      <a href={item.link} className="work__button">
+        Learn more <i className="bx bx-right-arrow-alt work__button-icon"></i>
+      </a>
+      <div className="work__stack">
+        {item.stack.map((stackItem, index) => (
+          <span key={index} className="work__stack-item">
+            {stackItem}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default WorkItems;
