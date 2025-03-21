@@ -11,6 +11,10 @@ const Footer = () => {
             {" "}
             Github
           </a>
+          {/* <a href="https://vercel.com/" target="_blank" className="techLink">
+            {" "}
+            Vercel
+          </a> */}
           , built using
           <a href="https://react.dev/" target="_blank" className="techLink">
             {" "}
