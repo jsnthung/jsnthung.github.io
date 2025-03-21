@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="footer__container container">
         <span className="footer__note">
           &#169; 2025 Jason Thung. All rights reserved <br /> Deployed with
-          <a href="https://vercel.com/" target="_blank" className="techLink">
+          <a href="https://github.com/" target="_blank" className="techLink">
             {" "}
-            Vercel
+            Github
           </a>
           , built using
           <a href="https://react.dev/" target="_blank" className="techLink">
